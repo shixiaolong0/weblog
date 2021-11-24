@@ -19,6 +19,7 @@
       <Kook v-if="lrc == null"></Kook>
       <Lyrics v-else></Lyrics>
     </div>
+    
     <!-- 路由 -->
     <router-view v-slot="{ Component }">
       <transition name="scale" mode="out-in">
