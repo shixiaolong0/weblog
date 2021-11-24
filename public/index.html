@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <!-- 昼夜模式使用的全局css变量 -->
+    <link id="theme" rel="stylesheet" href="./css/dark.css" />
+    <!-- 网站loading -->
+    <link rel="stylesheet" href="./css/loading.css" />
+    <!-- jQuery -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- 搜狐api 获取IP地址和省份 -->
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+  </head>
+
+  <body>
+    <!-- 网站loading -->
+    <div class="loadingBox">
+      <div class="body">
+        <span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="base">
+          <span></span>
+          <div class="face"></div>
+        </div>
+      </div>
+      <div class="longfazers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="tip">首次加载可能用时过长，请耐心等待</div>
+    </div>
+
+    <div id="app"></div>
+
+    <noscript>
+      <strong>
+        We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+  </body>
+</html>

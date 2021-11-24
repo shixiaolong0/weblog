@@ -1,0 +1,159 @@
+*:not(body) {
+  transition: background 0.3s;
+}
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+fieldset,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  border: 0;
+}
+
+/* 自定义滚动条样式 */
+::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 5px; /*高宽分别对应横竖滚动条的尺寸*/
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  background: var(--themeColor);
+}
+::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  border-radius: 10px;
+  background: transparent;
+}
+
+/* 字体 */
+@font-face {
+  font-family: "logo1";
+  src: url("./font/logo/BloodBlasterOutline-RpGde.ttf");
+}
+@font-face {
+  font-family: "logo2";
+  src: url("./font/logo/BloodBlaster-1GMZM.ttf");
+}
+
+/* 京东朗正体 */
+@font-face {
+  font-family: "JD";
+  src: url("./font/main/JDLangZhengTi.ttf");
+}
+
+/* 英文连体 */
+/* @font-face {
+  font-family: "Pacifico";
+  src: url("./font/main/Pacifico.ttf");
+} */
+
+/* 英文用 好看!!! */
+@font-face {
+  font-family: "Quicksand";
+  font-weight: 700;
+  src: url("./font/main/Quicksand-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Quicksand2";
+  font-weight: 400;
+  src: url("./font/main/Quicksand-Light.ttf");
+}
+
+/* 阿里图标 icon font */
+@font-face {
+  font-family: "iconfont"; /* Project id 2841996 */
+  src: url("//at.alicdn.com/t/font_2841996_zr7fw5v574.woff2?t=1633607822970")
+      format("woff2"),
+    url("//at.alicdn.com/t/font_2841996_zr7fw5v574.woff?t=1633607822970")
+      format("woff"),
+    url("//at.alicdn.com/t/font_2841996_zr7fw5v574.ttf?t=1633607822970")
+      format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-huochepiao:before {
+  content: "\e651";
+}
+
+.icon-liebiaoshitucaidan:before {
+  content: "\e8dc";
+}
+
+.icon-yinle:before {
+  content: "\e600";
+}
+
+.icon-rijianmoshi:before {
+  content: "\e6c7";
+}
+
+.icon-yejian:before {
+  content: "\e6ed";
+}
+
+.icon-guanyuwo:before {
+  content: "\e62b";
+}
+
+.icon-shouye-shouye:before {
+  content: "\e608";
+}
+
+.icon-yinleyule:before {
+  content: "\e617";
+}
+
+.icon-round_link_fill:before {
+  content: "\e80a";
+}
+
+.icon-16:before {
+  content: "\e625";
+}

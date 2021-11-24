@@ -1,0 +1,13 @@
+:root {
+  --logoFont: logo2;
+
+  --background: #ccc;
+  --cardBackground: #aaa;
+
+  --fontColor: #333;
+  --navFontColor: #666;
+
+  --themeColor: rgb(25, 202, 158);
+
+  --shadowcolor: rgba(0, 0, 0, 0.4);
+}
